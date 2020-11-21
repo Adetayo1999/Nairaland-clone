@@ -1,0 +1,41 @@
+.dashboard{
+    width:98%;
+    /* padding:10px; */
+    margin:15px auto;
+    background-color:  rgba(240, 240, 220 , 0.7);
+    border-radius: 10px;
+    border:1px solid gray;
+}
+
+.dashboard a{
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding:3px 4px;
+    color:rgba(0,10,0 ,0.95);
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin:7px; */
+}
+.dashboard a:hover{
+    text-decoration: underline;
+    color:rgba(0,20,0 ,0.95);
+}
+.dashboard h2{
+    text-align: center;
+    padding:7px 10px;
+    background: rgb(235 , 240 , 230);
+    width:100%;
+    font-size: 19px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    color:rgb(0 , 100 ,0);
+
+}
+.naira , .entertain , .tech{
+        border-top: 1px solid gray;
+        padding:8px 10px;
+}
+.entertain{
+    background: rgb(235 , 240 , 230);
+}

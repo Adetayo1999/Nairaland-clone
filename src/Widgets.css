@@ -1,0 +1,21 @@
+.widgets{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px auto;
+}
+.widjets-image img{
+    border-radius: 10px;
+}
+
+
+@media (max-width: 700px){
+    .two , .three{
+        display:none
+    }
+}
+@media(max-width: 1090px){
+   .three{
+       display:none;
+   }
+}

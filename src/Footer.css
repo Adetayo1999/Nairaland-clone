@@ -1,0 +1,72 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.members-online{
+    
+    background-color:  rgba(240, 240, 220 , 0.7);
+    width:98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border:1px solid #ddd;
+    margin:10px auto 20px auto;
+}
+.members-online h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding:8px 10px;
+     color:rgba(0,10,0 ,0.95);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.mem-stats{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding:5px 8px;
+     margin-bottom: 8px;
+     font-size: 14px;
+     font-weight: 600;
+}
+.original-footer{
+    background-color:  rgba(240, 240, 220 , 0.7);
+    padding:10px 12px;
+    width:98%;
+    margin:10px auto;
+    border-radius: 10px;
+    border:1px solid #ddd;
+}
+.of-p{
+    padding:8px 10px;
+    font-size: 14px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.of-p a{
+    text-decoration: none;
+}
+.of-p a:hover{
+    text-decoration: underline;
+}
+
+.nairaland{
+    font-weight: bold;
+     color:rgba(0,10,0 ,1);
+     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+.profile , .advert{
+    margin-left: 5px;
+    color:rgb(0,9,0,0.8);
+}
+.of-pa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

@@ -1,0 +1,39 @@
+.header{
+    background: rgba(240, 240, 220 , 0.7);
+    width:98%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin: 5px auto;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid gray;
+}
+.users-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:7px 10px;
+    
+}
+.logo-head{
+    color: rgb(0,120,0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.users-info .welcome{
+    margin:0 auto 7px auto;
+    /* font-size: 17px; */
+    font-weight: 400;
+}
+.users-info  a{
+    margin:0 4px;
+    text-decoration: none;
+    font-size: 17px;
+    color:rgb(0,100,0);
+}
+.users-info a:hover{
+    text-decoration: underline;
+}
